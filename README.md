@@ -1,30 +1,36 @@
 # What Makes a Recipe Great? An Analysis of Food.com Recipes and Ratings
-
 **By Alice Guo**
 
-This project investigates the relationship between recipe complexity, 
-nutrition, and user ratings using data from Food.com.
-
 ## Introduction
-Coming soon.
+[Describe your dataset and question here. Mention number of rows and relevant columns.]
 
 ## Data Cleaning and Exploratory Data Analysis
-Coming soon.
+[Describe your cleaning steps. Show DataFrame head using .to_markdown()]
+
+<iframe src="assets/cal_distribution.html" width="800" height="500" frameborder="0"></iframe>
+[1-2 sentence description of the plot]
+
+<iframe src="assets/rating_by_steps.html" width="800" height="500" frameborder="0"></iframe>
+[1-2 sentence description of the plot]
 
 ## Assessment of Missingness
-Coming soon.
+[MNAR discussion, then permutation test results]
+
+<iframe src="assets/missingness_nsteps.html" width="800" height="500" frameborder="0"></iframe>
 
 ## Hypothesis Testing
-Coming soon.
+[State null/alternative hypotheses, test statistic, p-value, conclusion]
+
+<iframe src="assets/hypothesis_test.html" width="800" height="500" frameborder="0"></iframe>
 
 ## Framing a Prediction Problem
-Coming soon.
+...
 
 ## Baseline Model
-Coming soon.
+...
 
 ## Final Model
-Coming soon.
+...
 
 ## Fairness Analysis
-Coming soon.
+<iframe src="assets/fairness_test.html" width="800" height="500" frameborder="0"></iframe>
